@@ -1,4 +1,6 @@
 resources:
+- argocd/namespace-datapower.yaml
+- argocd/serviceaccounts-datapower.yaml
 - argocd/consolelink.yaml
 - argocd/consolenotification.yaml
 - argocd/namespace-ibm-common-services.yaml
