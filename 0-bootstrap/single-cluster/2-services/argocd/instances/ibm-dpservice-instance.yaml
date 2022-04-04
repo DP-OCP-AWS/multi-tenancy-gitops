@@ -64,7 +64,7 @@ spec:
     use: developers
   serviceAccountName: sa-datapower
   imagePullSecrets:
-    - ' ibm-entitlement-key'
+    - 'ibm-entitlement-key'
   resources:
     limits:
       memory: 4Gi
