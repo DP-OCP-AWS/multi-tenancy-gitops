@@ -23,7 +23,7 @@ patches:
       value: https://charts.cloudnativetoolkit.dev
     - op: add
       path: /spec/sourceRepos/-
-      value: https://github.com/therayy/operators-instances.git   
+      value: https://therayy.github.io/operators-instances/  
 - target:
     group: argoproj.io
     kind: AppProject
@@ -54,7 +54,7 @@ patches:
       value: https://charts.cloudnativetoolkit.dev
     - op: add
       path: /spec/sourceRepos/-
-      value: https://github.com/therayy/operators-instances.git   
+      value: https://therayy.github.io/operators-instances/ 
 - target:
     group: argoproj.io
     kind: AppProject
