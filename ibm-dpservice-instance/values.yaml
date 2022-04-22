@@ -4,7 +4,7 @@
 
 spec:
   license: L-RJON-CCCP46
-  use: developers
+  use: nonproduction
   serviceAccount: sa-datapower
   imagePullSecrets: ibm-entitlement-key
   users:

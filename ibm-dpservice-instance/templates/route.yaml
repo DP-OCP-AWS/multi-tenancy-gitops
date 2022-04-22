@@ -1,0 +1,13 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: migration-example-0
+  namespace: tools
+spec:
+  to:
+    kind: Service
+    name: migration-example-0
+    weight: 100
+  port:
+    targetPort: 8001
+  wildcardPolicy: None

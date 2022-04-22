@@ -20,7 +20,7 @@ spec:
   source:
     chart: ibm-dpservice-instance
     repoURL: "https://therayy.github.io/operators-instances/" # Populated by kustomize patches in 2-services/kustomization.yaml
-    targetRevision: 1.0.0
+    targetRevision: 1.0.5
     helm:
       parameters:
       - name: metadata.name
@@ -28,7 +28,7 @@ spec:
       - name: spec.license.accept
         value: "true"
       - name: spec.license.license
-        value: Enterprise
+        value: nonproduction
       - name: spec.version
         value: 10.0-cd
       - name: spec.storageClass
